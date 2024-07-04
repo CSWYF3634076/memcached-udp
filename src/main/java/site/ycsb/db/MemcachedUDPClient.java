@@ -54,9 +54,9 @@ public class MemcachedUDPClient implements Runnable  {
 
     public void init(boolean isTcp,String poolName) throws Exception {
         try {
-            String[] serverlist = {"169.254.27.101:11211"}; // 有线
+            //String[] serverlist = {"169.254.27.101:11211"}; // 有线
             //String[] serverlist = {"192.168.0.102:11211"}; // 无线
-            //String[] serverlist = {"192.168.238.142:11212"}; // 虚拟机
+            String[] serverlist = {"192.168.238.142:11212"}; // 虚拟机
             //String[] serverlist = {"192.168.0.103:11211"}; // windows虚拟机 无线
             //String[] serverlist = {"169.254.242.161:11211"}; // windows虚拟机 有线
             //String[] serverlist = {"172.23.238.213:11211"}; // wsl
